@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="BestBuy application" skipped="0" tests="2" time="0.05" timestamp="2023-01-10T11:14:19.355Z[Europe/London]"><testcase name="CRUD Test"><error message="Couldn't convert &quot;&lt;string&gt;&quot; to an instance of: [class java.lang.Integer, int]&#10;---- Debugging information ----&#10;-------------------------------&#10;-------------------------------" type="cucumber.deps.com.thoughtworks.xstream.converters.ConversionException">Couldn't convert "&lt;string&gt;" to an instance of: [class java.lang.Integer, int]
+---- Debugging information ----
+-------------------------------
+-------------------------------</error><system-err>Couldn't convert "&lt;string&gt;" to an instance of: [class java.lang.Integer, int]
+---- Debugging information ----
+-------------------------------
+-------------------------------&#13;
+cucumber.deps.com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)&#13;
+✽.When I create a new booking by providing the information firstName "&lt;string&gt;" lastName "&lt;string&gt;" totalPrice "&lt;string&gt;" depositPaid "&lt;string&gt;" bookingDates "&lt;string&gt;" additionalNeeds "&lt;string&gt;"(bookingcrud.feature:5)&#13;
+</system-err></testcase></testsuite>
